@@ -1,0 +1,28 @@
+.colorWhite{
+    color:white!important;
+  }
+  .colorBlue{
+    color: rgba(27, 27, 50, 0.8) !important;
+  }
+  .bgcolorBlue{
+    background-color: rgba(27, 27, 50, 0.8) !important;
+  }
+  .bgSignInImage{
+    
+    background-image:
+    url("kovalam-beach-trivandrum-tourism-entry-fee-timings-holidays-reviews-header.jpg");
+   background-size: cover;
+   background-position: center;
+
+  }
+
+  .bgLogInImage{
+    background-image:
+    url("wp2649813.jpg");
+   background-size: cover;
+   background-position: center;
+  }
+  .h3{
+    background-color:grey;
+  }
+ 

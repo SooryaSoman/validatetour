@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kottayam</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="district.css" />
+  </head>
+  <body>
+    <header>
+      <!-- START OF NAVIGATION BAR  -->
+
+      <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-success">
+        <div class="container-fluid position-relative">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#bdNavbar"
+            aria-controls="bdNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="bdNavbar">
+            <ul
+              class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0"
+            >
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2 " href="destination.html"
+                  >Destination</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="login.html">Log In</a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item col-7 col-md-auto">
+                <a class="nav-link p-2 active" href="#">Kottayam</a>
+              </li>
+            </ul>
+            <hr class="d-md-none text-white-50" />
+            
+      </nav>
+
+      <!-- END OF NAVIGATION BAR  -->
+
+      <!-- START OF CAROUSEL  -->
+      <div class="container-fluid g-0">
+        <div class="row-fluid">
+          <div class="col-12">
+            <section class="banner bg-dark position-relative">
+              <!-- Carousel  -->
+              <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div
+                    class="carousel-item mycarousel-zoom active"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 1 -->
+                    <img
+                      src="kottayam-kerala-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Kottayam</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 2 -->
+                    <img
+                      src="elaveezhapoonchira.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Kottayam</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 3 -->
+                    <img
+                      src="eattumanoor.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Kottayam</h2>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <img
+                class="position-absolute top-0 start-0 bg-white rounded"
+                style="width: 100px"
+                src="Kerala_Tourism_Logo-1536x1141.png"
+                alt="logo"
+              />
+            </section>
+            <!-- END OF SECTION -->
+          </div>
+          <!-- END OF COLOUMN  -->
+        </div>
+        <!-- END OF ROW -->
+      </div>
+      <!-- END OF CONTAINER  -->
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- START OF MAIN -->
+    <main class="mainClass">
+      <div class="container mt-3">
+        <div class="row bg-warning text-center">
+          <div class="col">
+            <h2>Top Sights</h2>
+          </div>
+        </div>
+        <!-- END OF FIRST ROW  -->
+
+        <div class="row row-cols-1 row-cols-md-2 g-1">
+          <!-- START OF COLUMN 1 -->
+
+          <div class="card-columns">
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="thirunakkara.jpg"
+                class="card-img-top"
+                alt="Thirunakkara Mahadeva"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Thirunakkara Mahadeva</h5>
+                <div class="d-flex mb-2">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample11"
+                    aria-expanded="true"
+                    aria-controls="collapseExample11"
+                  >
+                Read More
+                  </button>
+                </div>
+                <p class="card-text">Hindu temple with performances & murals</p>
+                <div class="collapse" id="collapseExample11">
+                  <p class="card-text">
+                    Hindu temple with performances & murals
+                    his is an ancient Lord Shiva temple situated in the heart of Kottayam city. The Thirunakkara Mahadeva Temple attracts huge crowds due to its traditional Kerala architectural style and vibrant mural paintings. These depict the stories of Lord Shiva and the Dashavathara (ten avatars of Lord Vishnu). The temple houses a Koothambalam, the traditional temple theatre where performances of various cultural art and dance forms are held.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+</div>
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="Women-Thazhathangady-Juma-Masjid.jpg"
+                class="card-img-top"
+                alt="Thazhathangady Juma Masjid"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Thazhathangady Juma Masjid</h5>
+                <div class="d-flex mb-2">
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample12"
+                    aria-expanded="true"
+                    aria-controls="collapseExample12"
+                  >
+                    Read More
+                  </button>
+                </div>
+                <p class="card-text">Ancient mosque with elaborate carvings</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample12">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    Thazhathangady Juma Masjid is a mosque situated in
+                    Thazhathangady, one of the Heritage Zones of Kerala, India,
+                    near the town of Kottayam. It is one of the oldest mosques
+                    in India and is more than 1000 years old. It is famous for
+                    its richness of architecture, wood carvings and the beauty.
+                    Southern half of it is demolished and extended with iron
+                    pillars, aluminium sheets and minars in 2012. This mosque is
+                    situated on the banks of the Meenachil river. Thazhathangady
+                    Juma Masjid is also called as the "Taj Juma Masjid". The
+                    ancestors of this Masjid came and settled in Kottayam, from
+                    different parts of Kerala. The Muslims who lived here played
+                    an active role in Freedom Struggle and other National
+                    Movements. This mosque is known for its intricate wooden
+                    carvings and architecture. As per the latest update
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+      </div>
+
+
+
+
+            <!-- START OF CARD -->
+            <div class="row row-cols-1 row-cols-md-2 g-1">
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="mozartartgallery_20180430124250.jpg"
+                class="card-img-top"
+                alt="Mozart Art Gallery"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Mozart Art Gallery</h5>
+                <div class="d-flex mb-2">
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample22"
+                    aria-expanded="true"
+                    aria-controls="collapseExample22"
+                  >
+                    Read More
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text">Art museum</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample22">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">Located in the residential apartments of a Mr. M. Somu, in the Ayemenem village of Kottayam, Mozart Art Gallery is a haven for art enthusiasts and lovers. With an objective to popularize fine arts and to impart knowledge about contemporary and classical paintings and sketches, this private venture provides a platform to artists across countries to view the methodology and technique behind painting, sketching and other fine arts. 
+              </div>
+            </div>
+            </div>
+        
+            <!-- END OF CARD -->
+        
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="vimalagiri-church.jpg"
+                class="card-img-top"
+                alt="Vimalagiri Immaculate"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Vimalagiri Immaculate</h5>
+                <div class="d-flex mb-2">
+                  
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample23"
+                    aria-expanded="true"
+                    aria-controls="collapseExample23"
+                  >
+                   Read More
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text">
+                  Cathedral, architecture and history
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                </p>
+
+                <div class="collapse" id="collapseExample23">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    The Immaculate Heart of Mary Cathedral, also known as the
+                    Vimalagiri Cathedral or as Angathattu Palli located at
+                    Kottayam is the cathedral of the Diocese of Vijayapuram.
+                    Built in the Gothic architectural style, the church has a
+                    172-foot tall tower which is one of the tallest church
+                    towers in Kerala. The foundation stone of Vimalagiri Church
+                   
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+          </div>
+          <!-- END OF COLUMN 2 -->  
+        </div>
+      </div>
+    
+    </main>
+    <!-- END OF MAIN  -->
+  </body>
+</html>

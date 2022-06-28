@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pathanamthitta</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="district.css" />
+  </head>
+  <body>
+    <header>
+      <!-- START OF NAVIGATION BAR  -->
+
+      <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-success">
+        <div class="container-fluid position-relative">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#bdNavbar"
+            aria-controls="bdNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="bdNavbar">
+            <ul
+              class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0"
+            >
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2 " href="destination.html"
+                  >Destination</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="login.html">Log In</a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item col-7 col-md-auto">
+                <a class="nav-link p-2 active" href="#">Pathanamthitta</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!-- END OF NAVIGATION BAR  -->
+
+      <!-- START OF CAROUSEL  -->
+      <div class="container-fluid g-0">
+        <div class="row-fluid">
+          <div class="col-12">
+            <section class="banner bg-dark position-relative">
+              <!-- Carousel  -->
+              <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div
+                    class="carousel-item mycarousel-zoom active"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 1 -->
+                    <img
+                      src="pathanamthitta.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Pathanamthitta</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 2 -->
+                    <img
+                      src="sabarimala.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Pathanamthitta</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 3 -->
+                    <img
+                      src="vallamkali.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Pathanamthitta</h2>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <img
+                class="position-absolute top-0 start-0 bg-white rounded"
+                style="width: 100px"
+                src="Kerala_Tourism_Logo-1536x1141.png"
+                alt="logo"
+              />
+            </section>
+            <!-- END OF SECTION -->
+          </div>
+          <!-- END OF COLOUMN  -->
+        </div>
+        <!-- END OF ROW -->
+      </div>
+      <!-- END OF CONTAINER  -->
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- START OF MAIN -->
+    <main class="mainClass">
+      <div class="container mt-3">
+        <div class="row bg-warning text-center">
+          <div class="col">
+            <h2>Top Sights</h2>
+          
+          </div>
+        </div>
+        <!-- END OF FIRST ROW  -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- START OF COLUMN 1 -->
+
+          <div class="card-columns mx-auto"style="width:18rem;">
+        
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="chuttipara.jpg"
+                class="card-img-top"
+                alt="Chuttippara"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Chuttippara</h5>
+                <div class="d-flex mb-2">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample11"
+                    aria-expanded="true"
+                    aria-controls="collapseExample11"
+                  >
+                   Read More
+                  </button>
+                </div>
+                <p class="card-text">Hill overlooking Pathanamthitta</p>
+                <div class="collapse" id="collapseExample11">
+                  <p class="card-text">
+                    Chuttippara, a 200 ft. rock cluster is one of the tourist spots where you can get a panoramic view of Pathanamthitta town. Atop the hill, there is a temple dedicated to Lord Shiva, Harihara Mahadeva Temple.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+
+            <!-- START OF CARD -->
+            <div class="card-columns mx-auto"style="width:18rem;">
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="malayalapuzha.jpg"
+                class="card-img-top"
+                alt="Malayalappuzha Bhagavathy"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Malayalappuzha Bhagavathy</h5>
+                <div class="d-flex mb-2">
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample12"
+                    aria-expanded="true"
+                    aria-controls="collapseExample12"
+                  >
+                    Read More
+                  </button>
+                </div>
+                <p class="card-text">Temple</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample12">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                     Malayalappuzha Devi Temple is a Bhadrakali temple situated at Malayalappuzha in Pathanamthitta in Kerala, India. It is believed that the temple was built more than 1000 years ago. In the temple, Bhadrakali is seen in a ferocious form soon after the killing of the demon, Darika. The main idol is 5.5 feet high, made from katu sarkara yogam. In addition to this idol, two other idols are also erected inside the sanctum sanctorum; one used for abhisheka and the other for sreebali, a daily ritual. WORSHIPING Malayalapuzha Devi is believed to grant boons for extending prosperity to all the devotees. The goddess is worshiped for protecting the devotee from enemies, getting the unmarried girls married, obtaining job for the unemployed, and helping businesses flourish. This popular belief and faith makes the temple visited by devotees from far locations. The devi is also known as Goddess Idathattil Bhagwathi Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+          </div>
+          <!-- END OF COLUMN 1 -->
+
+          <!-- START OF COLUMN 2 -->
+
+          <div class="card-columnsmx-auto"style="width:18rem;">
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="gavi.jpg"
+                class="card-img-top"
+                alt="Kadammanitta Devi Temple"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Gavi Ecotourism</h5>
+                <div class="d-flex mb-2">
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample21"
+                    aria-expanded="true"
+                    aria-controls="collapseExample21"
+                  >
+                    Read More
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text">Gavi</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample21">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    Gavi is a widely popular eco-tourist spot Gavi is listed among the leading eco-tourism centres by 'Alistair International', the world acclaimed tourism major. We know, the nature lover in you wants to soak in natural scenic beauty and rich wildlife, miles away from modernity.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+
+            
+            <!-- START OF CARD --><div class="card-columnsmx-auto"style="width:18rem;">
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="aranmula.jpg"
+                class="card-img-top"
+                alt="Temple"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Aranmula Parthasarathy Temple</h5>
+                <div class="d-flex mb-2">
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample23"
+                    aria-expanded="true"
+                    aria-controls="collapseExample23"
+                  >
+                    Read more
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text">Boat Race.</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample23">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    The Aranmula Parthasarathy Temple is one of the "Divya Desams", the 108 temples of Vishnu revered by the 12 poet saints, or Alwars located near Aranmula, a village in Pathanamthitta District, Kerala, South India. Constructed in the Kerala style of architecture, the temple is glorified in the Divya Prabandha, the early medieval Tamil canon of the Azhwar saints from the 6th–9th centuries AD. It is one of the 108 Divyadesam dedicated to Krishna, an avatar of Vishnu, who is worshipped as Parthasarathy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+          </div>
+        </div>
+          <!-- END OF COLUMN 2 -->
+
+          <!-- START OF COLUMN 3 -->
+
+          <div class="card-columns mx-auto style="width:18rem;">
+            <div class="card mb-3 mt-3">
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="pandalam.jpg"
+                class="card-img-top"
+                alt="Pandalam Palace"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Pandalam Palace</h5>
+                <div class="d-flex mb-2">
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample31"
+                    aria-expanded="true"
+                    aria-controls="collapseExample31"
+                  >
+                  Read More
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text"></p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample31">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    Pandalam palace is positioned near to the river bank of Achankovil in the city of Pandalamin Kerala. The place as well as the fort has major connections with Lord Ayyappa and Sabarimala. The royal family of Pandalam was used to reside in the palace during the time of 900 AD.
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            <!-- END OF CARD -->
+
+          
+        </div>
+      </div>
+    </main>
+    <!-- END OF MAIN  -->
+  </body>
+</html>
+
